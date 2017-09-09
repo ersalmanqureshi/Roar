@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		OBJ_20 /* Roar.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* Roar.swift */; };
+		5CB19A9E1F6458D300713B1B /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB19A9D1F6458D300713B1B /* Manager.swift */; };
+		5CB19AA01F64593F00713B1B /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB19A9F1F64593F00713B1B /* Request.swift */; };
+		5CB19AA21F64594800713B1B /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB19AA11F64594800713B1B /* Response.swift */; };
+		5CB19AA41F645A6800713B1B /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB19AA31F645A6800713B1B /* Cache.swift */; };
 		OBJ_27 /* RoarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* RoarTests.swift */; };
 		OBJ_29 /* Roar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Roar.framework */; };
 /* End PBXBuildFile section */
@@ -23,11 +26,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5CB19A9D1F6458D300713B1B /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		5CB19A9F1F64593F00713B1B /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		5CB19AA11F64594800713B1B /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		5CB19AA31F645A6800713B1B /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
 		OBJ_11 /* RoarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoarTests.swift; sourceTree = "<group>"; };
 		OBJ_13 /* Roar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Roar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_14 /* RoarTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = RoarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_8 /* Roar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +73,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -75,13 +81,15 @@
 				OBJ_9 /* Tests */,
 				OBJ_12 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_8 /* Roar.swift */,
+				5CB19AA11F64594800713B1B /* Response.swift */,
+				5CB19A9D1F6458D300713B1B /* Manager.swift */,
+				5CB19A9F1F64593F00713B1B /* Request.swift */,
+				5CB19AA31F645A6800713B1B /* Cache.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -145,7 +153,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_12 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -161,7 +169,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_20 /* Roar.swift in Sources */,
+				5CB19AA21F64594800713B1B /* Response.swift in Sources */,
+				5CB19AA41F645A6800713B1B /* Cache.swift in Sources */,
+				5CB19AA01F64593F00713B1B /* Request.swift in Sources */,
+				5CB19A9E1F6458D300713B1B /* Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
